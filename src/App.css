@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url('./assets/fonts/RobotoCondensed-Italic-VariableFont_wght.ttf');
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.quiz-interface{
+  font-family: 'Roboto Condensed';
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal_screen{
+  display: flex;
+  justify-content: center;
+}
+.startText {
+  color: #242424c4;
+}
+.startWindow-about {
+  color: #2424248e;
+  text-align: center;
+}
+.startWindow-container{
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
